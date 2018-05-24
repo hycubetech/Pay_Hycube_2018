@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @license Copyright 2011-2014 HycPay Inc., MIT License
+ * @see https://github.com/hycpay/magento-plugin/blob/master/LICENSE
+ */
+ -->
+<config>
+    <modules>
+        <Hycpay_Core>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_Payment />
+            </depends>
+        </Hycpay_Core>
+    </modules>
+</config>

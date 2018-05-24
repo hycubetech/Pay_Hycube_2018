@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @license Copyright 2011-2014 HycPay Inc., MIT License
+ * @see https://github.com/hycpay/magento-plugin/blob/master/LICENSE
+ */
+ -->
+ <config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <hycpay translate="title" module="hycpay">
+                        <title>HycPay</title>
+                    </hycpay>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <hycpay translate="title" module="hycpay">
+                                        <title>HycPay Settings</title>
+                                    </hycpay>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+    <layout>
+        <updates>
+            <hycpay>
+                <file>hycpay.xml</file>
+            </hycpay>
+        </updates>
+    </layout>
+    <translate>
+        <modules>
+            <hycpay>
+                <files>
+                    <default>Hycpay_Core.csv</default>
+                </files>
+            </hycpay>
+        </modules>
+    </translate>
+ </config>
